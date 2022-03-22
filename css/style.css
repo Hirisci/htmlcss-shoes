@@ -14,6 +14,21 @@
 
 /*------------ COMMON ------------*/
 
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    text-align: center;
+}
+
+h2{
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 70px;
+}
+
 
 
 
@@ -21,6 +36,7 @@
 
 header{
     position:fixed;
+    z-index: 10;
     top: 0;
     right: 0;
 }
@@ -43,8 +59,8 @@ header nav li a{
     width: 50px;
     line-height: 40px;
     text-align: center;
-    border: 5px solid lightgrey ;
-    background-color: lightgrey;
+    border: 5px solid lightgray;
+    background-color: lightgray;
     border-radius: 50%;
 }
 
@@ -56,3 +72,24 @@ header nav li a:hover{
     background-color: gray;
 }
 
+/*------------ MAIN ------------*/
+
+section{
+    position: relative;
+    height: 100vh;
+}
+
+#primo-prodotto {
+    background-color: red;
+    color: yellow;
+}
+
+#secondo-prodotto{
+    background-color: green;
+    color: yellow;
+}
+
+#terzo-prodotto{
+    background-color: yellow;
+    color: green;
+}
