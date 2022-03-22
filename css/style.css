@@ -6,6 +6,14 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Bungee', cursive;
+}
+
 /*------------ Variabili ------------*/
 
  :root{
@@ -24,9 +32,9 @@
 }
 
 h2{
-    font-weight: 900;
     text-transform: uppercase;
-    font-size: 70px;
+    font-size: 65px;
+    line-height: 70px;
 }
 
 
